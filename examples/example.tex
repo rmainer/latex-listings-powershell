@@ -1,0 +1,34 @@
+\documentclass{article}
+
+\usepackage{color}
+\definecolor{lst-gray}{rgb}{0.98,0.98,0.98}
+\definecolor{lst-blue}{RGB}{40,0.0,255}
+\definecolor{lst-green}{RGB}{65,128,95}
+\definecolor{lst-red}{RGB}{200,0,85}
+
+\usepackage{listings}
+\input{../src/latex-listings-powershell.tex}
+\lstset{
+  commentstyle=\color{lst-green},
+  basicstyle=\small\ttfamily,
+  backgroundcolor=\color{lst-gray},
+  breaklines=true,
+  captionpos=b,
+  columns=fixed,
+  extendedchars=true,
+  frame=single,
+  framesep=2pt,
+  keepspaces=true,
+  keywordstyle=\color{lst-blue},
+  language={PowerShell},
+  numbers=left,
+  numberstyle=\small\ttfamily,
+  showstringspaces=false,
+  stringstyle=\color{lst-red},
+  tabsize=2,
+}
+
+\begin{document}
+\section*{Example}
+\lstinputlisting[caption={example.ps1}]{example.ps1}
+\end{document}
