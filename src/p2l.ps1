@@ -14,8 +14,8 @@ $footer = @'
 	morecomment=[n]{<\#}{\#>},
 	morestring=[b]{"},
 	morestring=[b]{'},
-	morestring=[s]{\@'}{'\@},
-	morestring=[s]{\@"}{"\@}
+	morestring=[s]{@'}{'@},
+	morestring=[s]{@"}{"@}
 }
 '@
 
