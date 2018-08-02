@@ -7,7 +7,7 @@ $header = @"
 "@
 
 $footer = @'
-	morekeywords={Do, Else, For, ForEach, If, In, Until, While},
+	morekeywords={Do,Else,For,ForEach,Function,If,In,Until,While},
 	alsodigit={-},
 	sensitive=false,
 	morecomment=[l]{\#},
